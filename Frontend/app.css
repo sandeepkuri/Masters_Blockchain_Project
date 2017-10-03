@@ -1,0 +1,230 @@
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4289f4;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    padding: 16px 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+div {
+    align: center;
+    padding: 10px 40px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #6842f4;
+}
+
+.form a:hover {
+    color: red;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .messageb {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .messageb a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .m1 a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .m2 a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .m3 a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .m4 a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .m5 a {
+    color: #4289f4;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.password-form {
+    display: none;
+}
+
+.Second-login-form {
+    display: none;
+}
+
+.second-register-form {
+    display: none;
+}
+
+
+/*----- Tabs -----*/
+
+.tabs {
+    align: center;
+    width: auto;
+    display: inline-block;
+}
+
+
+/*----- Tab Links -----*/
+
+
+/* Clearfix */
+
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.tab-links li {
+    margin: 0px 5px;
+    float: left;
+    list-style: none;
+}
+
+.tab-links a {
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: #7FB5DA;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c4c4c;
+    transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+    background: #a7cce5;
+    text-decoration: none;
+}
+
+li.active a,
+li.active a:hover {
+    background: #fff;
+    color: #4c4c4c;
+}
+
+
+/*----- Content of Tabs -----*/
+
+.tab-content {
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+body {
+    background-image: url("./secure.jpg");
+    /* fallback for old browsers */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

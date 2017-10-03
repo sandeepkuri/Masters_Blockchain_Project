@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication using blockchain</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+
+</head>
+
+<body>
+    <div class="tabs">
+        <ul class="tab-links">
+            <li class="active"><a>Single-Factor Authentication</a></li>
+            <li><a href="./tfa.html">Two-Factor Authentication</a></li>
+            <li><a href="./fea.html">4-Eye Authentication</a></li>
+        </ul>
+        <!--Single-Factor authentication-->
+        <div class="tab-content">
+            <div class="login-page">
+                <div class="form">
+                    <!-- Sign UP -->
+                    <form class="register-form">
+                        <h4>Signup</h4>
+                        <input id="sfauname" type="text" name="name" placeholder="Username" required/>
+                        <input id="sfasignuppwd" type="password" placeholder="Password" required/>
+                        <input id="sfacpwd" type="password" placeholder="Confirm Password" required/>
+                        <button onclick="sfasignup()">Create</button>
+                        <p class="m4">Already registered? <a href="#">Login</a></p>
+                    </form>
+
+                    <!-- Password Rest -->
+                    <form class="password-form">
+                        <h4>Password Update</h4>
+                        <input id="sfapassuname" type="text" placeholder="Username" required/>
+                        <input id="sfapassuoldpwd" type="password" placeholder="Old password" required/>
+                        <input id="sfapassunewpwd" type="password" placeholder="New password" required/>
+                        <button onclick="sfapwdreset()">Password Reset</button>
+                        <p class="m4">Back to Login? <a href="#">Login</a></p>
+                    </form>
+
+                    <form class="login-form">
+                        <!-- Login -->
+                        <h4>Single-Factor Authentication</h4>
+                        <input id="sfaloginuname" type="text" placeholder="Username" />
+                        <input id="sfaloginpwd" type="password" placeholder="Password" />
+                        <button onclick="sfaloginfuction()">login</button>
+                        <p class="m2">Not registered? <a href="#">Create an account</a></p>
+                        <p class="m3">Change Password? <a href="#">Reset Password</a></p>
+                        <button onclick="sfatoken()">Verify token</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="model.js"></script>
+
+</html>
