@@ -1,0 +1,22 @@
+{
+  "name": "sandee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.0",
+    "nodemailer": "^3.1.7",
+    "random-number-generator": "^1.0.2",
+    "solc": "^0.4.9"
+  }
+}
